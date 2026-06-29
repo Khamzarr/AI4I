@@ -1,7 +1,7 @@
 {
   "version": "1",
   "metadata": {
-    "marimo_version": "0.23.10",
+    "marimo_version": "0.23.11",
     "script_metadata_hash": null
   },
   "cells": [
@@ -12,7 +12,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='Hbol-0' random-id='126ae9d4-9f4e-fd55-f5f3-be76fae246ab'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;UDI&#92;&quot;:1,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;M14860&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;M&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.1,&#92;&quot;Process temperature [K]&#92;&quot;:308.6,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1551,&#92;&quot;Torque [Nm]&#92;&quot;:42.8,&#92;&quot;Tool wear [min]&#92;&quot;:0,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:2,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47181&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.2,&#92;&quot;Process temperature [K]&#92;&quot;:308.7,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1408,&#92;&quot;Torque [Nm]&#92;&quot;:46.3,&#92;&quot;Tool wear [min]&#92;&quot;:3,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:3,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47182&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.1,&#92;&quot;Process temperature [K]&#92;&quot;:308.5,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1498,&#92;&quot;Torque [Nm]&#92;&quot;:49.4,&#92;&quot;Tool wear [min]&#92;&quot;:5,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:4,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47183&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.2,&#92;&quot;Process temperature [K]&#92;&quot;:308.6,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1433,&#92;&quot;Torque [Nm]&#92;&quot;:39.5,&#92;&quot;Tool wear [min]&#92;&quot;:7,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:5,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47184&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.2,&#92;&quot;Process temperature [K]&#92;&quot;:308.7,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1408,&#92;&quot;Torque [Nm]&#92;&quot;:40.0,&#92;&quot;Tool wear [min]&#92;&quot;:9,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0}]&quot;' data-total-rows='5' data-total-columns='14' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;UDI&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Product ID&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Air temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Process temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Rotational speed [rpm]&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Torque [Nm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Tool wear [min]&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Machine failure&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;TWF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;HDF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;PWF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;OSF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;RNF&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='Hbol-0' random-id='1e6fa3ba-e828-f53f-652a-028de7d76eae'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;UDI&#92;&quot;:1,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;M14860&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;M&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.1,&#92;&quot;Process temperature [K]&#92;&quot;:308.6,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1551,&#92;&quot;Torque [Nm]&#92;&quot;:42.8,&#92;&quot;Tool wear [min]&#92;&quot;:0,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:2,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47181&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.2,&#92;&quot;Process temperature [K]&#92;&quot;:308.7,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1408,&#92;&quot;Torque [Nm]&#92;&quot;:46.3,&#92;&quot;Tool wear [min]&#92;&quot;:3,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:3,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47182&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.1,&#92;&quot;Process temperature [K]&#92;&quot;:308.5,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1498,&#92;&quot;Torque [Nm]&#92;&quot;:49.4,&#92;&quot;Tool wear [min]&#92;&quot;:5,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:4,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47183&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.2,&#92;&quot;Process temperature [K]&#92;&quot;:308.6,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1433,&#92;&quot;Torque [Nm]&#92;&quot;:39.5,&#92;&quot;Tool wear [min]&#92;&quot;:7,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0},{&#92;&quot;UDI&#92;&quot;:5,&#92;&quot;Product ID&#92;&quot;:&#92;&quot;L47184&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:298.2,&#92;&quot;Process temperature [K]&#92;&quot;:308.7,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1408,&#92;&quot;Torque [Nm]&#92;&quot;:40.0,&#92;&quot;Tool wear [min]&#92;&quot;:9,&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;TWF&#92;&quot;:0,&#92;&quot;HDF&#92;&quot;:0,&#92;&quot;PWF&#92;&quot;:0,&#92;&quot;OSF&#92;&quot;:0,&#92;&quot;RNF&#92;&quot;:0}]&quot;' data-total-rows='5' data-total-columns='14' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;UDI&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Product ID&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Air temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Process temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Rotational speed [rpm]&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Torque [Nm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Tool wear [min]&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Machine failure&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;TWF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;HDF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;PWF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;OSF&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;RNF&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -38,7 +38,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='e4b27fe2-789b-5029-4e1b-e956b5e0ac3c'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;UDI&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Product ID&#92;&quot;,&#92;&quot;value&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;pyarrow&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;&#92;&quot;:&#92;&quot;Type&#92;&quot;,&#92;&quot;value&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;pyarrow&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;&#92;&quot;:&#92;&quot;Air temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;float64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Process temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;float64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Rotational speed [rpm]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Torque [Nm]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;float64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Tool wear [min]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Machine failure&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;TWF&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;}]&quot;' data-total-rows='14' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='794fd71d-cad6-7367-b2a0-65cedb2ed95c'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;UDI&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Product ID&#92;&quot;,&#92;&quot;value&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;&#92;&quot;:&#92;&quot;Type&#92;&quot;,&#92;&quot;value&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;&#92;&quot;:&#92;&quot;Air temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;float64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Process temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;float64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Rotational speed [rpm]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Torque [Nm]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;float64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Tool wear [min]&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Machine failure&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;TWF&#92;&quot;,&#92;&quot;value&#92;&quot;:&#92;&quot;int64&#92;&quot;}]&quot;' data-total-rows='14' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -51,7 +51,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='165543ad-c1a6-68c3-ea97-9631240f25dd'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;UDI&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Product ID&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Type&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Air temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Process temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Rotational speed [rpm]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Torque [Nm]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Tool wear [min]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Machine failure&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;TWF&#92;&quot;,&#92;&quot;value&#92;&quot;:0}]&quot;' data-total-rows='14' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='2d2c783a-d58f-a095-b0a9-d83ee11ab604'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;UDI&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Product ID&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Type&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Air temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Process temperature [K]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Rotational speed [rpm]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Torque [Nm]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Tool wear [min]&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;Machine failure&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;TWF&#92;&quot;,&#92;&quot;value&#92;&quot;:0}]&quot;' data-total-rows='14' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -64,7 +64,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='35e18526-a859-0280-9d7b-1e0bb5d71422'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;UDI&#92;&quot;:10000.0,&#92;&quot;Air temperature [K]&#92;&quot;:10000.0,&#92;&quot;Process temperature [K]&#92;&quot;:10000.0,&#92;&quot;Rotational speed [rpm]&#92;&quot;:10000.0,&#92;&quot;Torque [Nm]&#92;&quot;:10000.0,&#92;&quot;Tool wear [min]&#92;&quot;:10000.0,&#92;&quot;Machine failure&#92;&quot;:10000.0,&#92;&quot;TWF&#92;&quot;:10000.0,&#92;&quot;HDF&#92;&quot;:10000.0,&#92;&quot;PWF&#92;&quot;:10000.0,&#92;&quot;OSF&#92;&quot;:10000.0,&#92;&quot;RNF&#92;&quot;:10000.0},{&#92;&quot;&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;UDI&#92;&quot;:5000.5,&#92;&quot;Air temperature [K]&#92;&quot;:300.00493,&#92;&quot;Process temperature [K]&#92;&quot;:310.00555999999995,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1538.7761,&#92;&quot;Torque [Nm]&#92;&quot;:39.986909999999995,&#92;&quot;Tool wear [min]&#92;&quot;:107.951,&#92;&quot;Machine failure&#92;&quot;:0.0339,&#92;&quot;TWF&#92;&quot;:0.0046,&#92;&quot;HDF&#92;&quot;:0.0115,&#92;&quot;PWF&#92;&quot;:0.0095,&#92;&quot;OSF&#92;&quot;:0.0098,&#92;&quot;RNF&#92;&quot;:0.0019},{&#92;&quot;&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;UDI&#92;&quot;:2886.8956799071675,&#92;&quot;Air temperature [K]&#92;&quot;:2.0002586829157516,&#92;&quot;Process temperature [K]&#92;&quot;:1.4837342191657208,&#92;&quot;Rotational speed [rpm]&#92;&quot;:179.2840959134266,&#92;&quot;Torque [Nm]&#92;&quot;:9.968933725121337,&#92;&quot;Tool wear [min]&#92;&quot;:63.65414663663636,&#92;&quot;Machine failure&#92;&quot;:0.18098084265065362,&#92;&quot;TWF&#92;&quot;:0.06767051004531426,&#92;&quot;HDF&#92;&quot;:0.10662498247919606,&#92;&quot;PWF&#92;&quot;:0.09700871645943425,&#92;&quot;OSF&#92;&quot;:0.09851360562404211,&#92;&quot;RNF&#92;&quot;:0.043549737748530666},{&#92;&quot;&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;UDI&#92;&quot;:1.0,&#92;&quot;Air temperature [K]&#92;&quot;:295.3,&#92;&quot;Process temperature [K]&#92;&quot;:305.7,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1168.0,&#92;&quot;Torque [Nm]&#92;&quot;:3.8,&#92;&quot;Tool wear [min]&#92;&quot;:0.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;UDI&#92;&quot;:2500.75,&#92;&quot;Air temperature [K]&#92;&quot;:298.3,&#92;&quot;Process temperature [K]&#92;&quot;:308.8,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1423.0,&#92;&quot;Torque [Nm]&#92;&quot;:33.2,&#92;&quot;Tool wear [min]&#92;&quot;:53.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;UDI&#92;&quot;:5000.5,&#92;&quot;Air temperature [K]&#92;&quot;:300.1,&#92;&quot;Process temperature [K]&#92;&quot;:310.1,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1503.0,&#92;&quot;Torque [Nm]&#92;&quot;:40.1,&#92;&quot;Tool wear [min]&#92;&quot;:108.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;UDI&#92;&quot;:7500.25,&#92;&quot;Air temperature [K]&#92;&quot;:301.5,&#92;&quot;Process temperature [K]&#92;&quot;:311.1,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1612.0,&#92;&quot;Torque [Nm]&#92;&quot;:46.8,&#92;&quot;Tool wear [min]&#92;&quot;:162.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;UDI&#92;&quot;:10000.0,&#92;&quot;Air temperature [K]&#92;&quot;:304.5,&#92;&quot;Process temperature [K]&#92;&quot;:313.8,&#92;&quot;Rotational speed [rpm]&#92;&quot;:2886.0,&#92;&quot;Torque [Nm]&#92;&quot;:76.6,&#92;&quot;Tool wear [min]&#92;&quot;:253.0,&#92;&quot;Machine failure&#92;&quot;:1.0,&#92;&quot;TWF&#92;&quot;:1.0,&#92;&quot;HDF&#92;&quot;:1.0,&#92;&quot;PWF&#92;&quot;:1.0,&#92;&quot;OSF&#92;&quot;:1.0,&#92;&quot;RNF&#92;&quot;:1.0}]&quot;' data-total-rows='8' data-total-columns='12' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;UDI&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Air temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Process temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Rotational speed [rpm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Torque [Nm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Tool wear [min]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Machine failure&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;TWF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;HDF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;PWF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;OSF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;RNF&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='94499db2-89fd-429f-7a69-b729a864272c'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;UDI&#92;&quot;:10000.0,&#92;&quot;Air temperature [K]&#92;&quot;:10000.0,&#92;&quot;Process temperature [K]&#92;&quot;:10000.0,&#92;&quot;Rotational speed [rpm]&#92;&quot;:10000.0,&#92;&quot;Torque [Nm]&#92;&quot;:10000.0,&#92;&quot;Tool wear [min]&#92;&quot;:10000.0,&#92;&quot;Machine failure&#92;&quot;:10000.0,&#92;&quot;TWF&#92;&quot;:10000.0,&#92;&quot;HDF&#92;&quot;:10000.0,&#92;&quot;PWF&#92;&quot;:10000.0,&#92;&quot;OSF&#92;&quot;:10000.0,&#92;&quot;RNF&#92;&quot;:10000.0},{&#92;&quot;&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;UDI&#92;&quot;:5000.5,&#92;&quot;Air temperature [K]&#92;&quot;:300.00493,&#92;&quot;Process temperature [K]&#92;&quot;:310.00555999999995,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1538.7761,&#92;&quot;Torque [Nm]&#92;&quot;:39.986909999999995,&#92;&quot;Tool wear [min]&#92;&quot;:107.951,&#92;&quot;Machine failure&#92;&quot;:0.0339,&#92;&quot;TWF&#92;&quot;:0.0046,&#92;&quot;HDF&#92;&quot;:0.0115,&#92;&quot;PWF&#92;&quot;:0.0095,&#92;&quot;OSF&#92;&quot;:0.0098,&#92;&quot;RNF&#92;&quot;:0.0019},{&#92;&quot;&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;UDI&#92;&quot;:2886.8956799071675,&#92;&quot;Air temperature [K]&#92;&quot;:2.0002586829157516,&#92;&quot;Process temperature [K]&#92;&quot;:1.4837342191657208,&#92;&quot;Rotational speed [rpm]&#92;&quot;:179.2840959134266,&#92;&quot;Torque [Nm]&#92;&quot;:9.968933725121337,&#92;&quot;Tool wear [min]&#92;&quot;:63.65414663663636,&#92;&quot;Machine failure&#92;&quot;:0.18098084265065362,&#92;&quot;TWF&#92;&quot;:0.06767051004531426,&#92;&quot;HDF&#92;&quot;:0.10662498247919606,&#92;&quot;PWF&#92;&quot;:0.09700871645943425,&#92;&quot;OSF&#92;&quot;:0.09851360562404211,&#92;&quot;RNF&#92;&quot;:0.043549737748530666},{&#92;&quot;&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;UDI&#92;&quot;:1.0,&#92;&quot;Air temperature [K]&#92;&quot;:295.3,&#92;&quot;Process temperature [K]&#92;&quot;:305.7,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1168.0,&#92;&quot;Torque [Nm]&#92;&quot;:3.8,&#92;&quot;Tool wear [min]&#92;&quot;:0.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;UDI&#92;&quot;:2500.75,&#92;&quot;Air temperature [K]&#92;&quot;:298.3,&#92;&quot;Process temperature [K]&#92;&quot;:308.8,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1423.0,&#92;&quot;Torque [Nm]&#92;&quot;:33.2,&#92;&quot;Tool wear [min]&#92;&quot;:53.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;UDI&#92;&quot;:5000.5,&#92;&quot;Air temperature [K]&#92;&quot;:300.1,&#92;&quot;Process temperature [K]&#92;&quot;:310.1,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1503.0,&#92;&quot;Torque [Nm]&#92;&quot;:40.1,&#92;&quot;Tool wear [min]&#92;&quot;:108.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;UDI&#92;&quot;:7500.25,&#92;&quot;Air temperature [K]&#92;&quot;:301.5,&#92;&quot;Process temperature [K]&#92;&quot;:311.1,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1612.0,&#92;&quot;Torque [Nm]&#92;&quot;:46.8,&#92;&quot;Tool wear [min]&#92;&quot;:162.0,&#92;&quot;Machine failure&#92;&quot;:0.0,&#92;&quot;TWF&#92;&quot;:0.0,&#92;&quot;HDF&#92;&quot;:0.0,&#92;&quot;PWF&#92;&quot;:0.0,&#92;&quot;OSF&#92;&quot;:0.0,&#92;&quot;RNF&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;UDI&#92;&quot;:10000.0,&#92;&quot;Air temperature [K]&#92;&quot;:304.5,&#92;&quot;Process temperature [K]&#92;&quot;:313.8,&#92;&quot;Rotational speed [rpm]&#92;&quot;:2886.0,&#92;&quot;Torque [Nm]&#92;&quot;:76.6,&#92;&quot;Tool wear [min]&#92;&quot;:253.0,&#92;&quot;Machine failure&#92;&quot;:1.0,&#92;&quot;TWF&#92;&quot;:1.0,&#92;&quot;HDF&#92;&quot;:1.0,&#92;&quot;PWF&#92;&quot;:1.0,&#92;&quot;OSF&#92;&quot;:1.0,&#92;&quot;RNF&#92;&quot;:1.0}]&quot;' data-total-rows='8' data-total-columns='12' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;UDI&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Air temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Process temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Rotational speed [rpm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Torque [Nm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Tool wear [min]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Machine failure&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;TWF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;HDF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;PWF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;OSF&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;RNF&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -77,7 +77,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='386afc36-2307-9a3f-5ac9-04e72e10cc84'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;count&#92;&quot;:6000},{&#92;&quot;Type&#92;&quot;:&#92;&quot;M&#92;&quot;,&#92;&quot;count&#92;&quot;:2997},{&#92;&quot;Type&#92;&quot;:&#92;&quot;H&#92;&quot;,&#92;&quot;count&#92;&quot;:1003}]&quot;' data-total-rows='3' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Type&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='a7890ee9-c070-0c56-f9af-964be2eedf35'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;count&#92;&quot;:6000},{&#92;&quot;Type&#92;&quot;:&#92;&quot;M&#92;&quot;,&#92;&quot;count&#92;&quot;:2997},{&#92;&quot;Type&#92;&quot;:&#92;&quot;H&#92;&quot;,&#92;&quot;count&#92;&quot;:1003}]&quot;' data-total-rows='3' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Type&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -90,7 +90,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='60f5c2c5-f799-00b7-fc3a-e6e28aa4c298'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;count&#92;&quot;:9661},{&#92;&quot;Machine failure&#92;&quot;:1,&#92;&quot;count&#92;&quot;:339}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Machine failure&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='c2280dca-dd93-62b2-1a7b-1fd421a72088'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Machine failure&#92;&quot;:0,&#92;&quot;count&#92;&quot;:9661},{&#92;&quot;Machine failure&#92;&quot;:1,&#92;&quot;count&#92;&quot;:339}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Machine failure&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -103,7 +103,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='62a4b281-618e-3bea-3aa5-0261704d8b21'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Type&#92;&quot;:&#92;&quot;H&#92;&quot;,&#92;&quot;Machine failure&#92;&quot;:21},{&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Machine failure&#92;&quot;:235},{&#92;&quot;Type&#92;&quot;:&#92;&quot;M&#92;&quot;,&#92;&quot;Machine failure&#92;&quot;:83}]&quot;' data-total-rows='3' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Machine failure&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Type&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='bed074ea-6b49-5811-a954-72bca9bf7052'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Type&#92;&quot;:&#92;&quot;H&#92;&quot;,&#92;&quot;Machine failure&#92;&quot;:21},{&#92;&quot;Type&#92;&quot;:&#92;&quot;L&#92;&quot;,&#92;&quot;Machine failure&#92;&quot;:235},{&#92;&quot;Type&#92;&quot;:&#92;&quot;M&#92;&quot;,&#92;&quot;Machine failure&#92;&quot;:83}]&quot;' data-total-rows='3' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Machine failure&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Type&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -116,7 +116,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='6354be2e-6681-069f-9ffd-cc03054405ca'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;Air temperature [K]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:1.0,&#92;&quot;Process temperature [K]&#92;&quot;:0.8761071581166637,&#92;&quot;Rotational speed [rpm]&#92;&quot;:0.022670458795535774,&#92;&quot;Torque [Nm]&#92;&quot;:-0.013777823050932982,&#92;&quot;Tool wear [min]&#92;&quot;:0.013852827663160141,&#92;&quot;Machine failure&#92;&quot;:0.08255568978322685},{&#92;&quot;&#92;&quot;:&#92;&quot;Process temperature [K]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.8761071581166637,&#92;&quot;Process temperature [K]&#92;&quot;:1.0,&#92;&quot;Rotational speed [rpm]&#92;&quot;:0.019276713901797683,&#92;&quot;Torque [Nm]&#92;&quot;:-0.01406061311689268,&#92;&quot;Tool wear [min]&#92;&quot;:0.013487517120005912,&#92;&quot;Machine failure&#92;&quot;:0.03594597332975212},{&#92;&quot;&#92;&quot;:&#92;&quot;Rotational speed [rpm]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.022670458795535774,&#92;&quot;Process temperature [K]&#92;&quot;:0.019276713901797683,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1.0,&#92;&quot;Torque [Nm]&#92;&quot;:-0.8750270862996037,&#92;&quot;Tool wear [min]&#92;&quot;:0.00022308484018726584,&#92;&quot;Machine failure&#92;&quot;:-0.044187559734375326},{&#92;&quot;&#92;&quot;:&#92;&quot;Torque [Nm]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:-0.013777823050932982,&#92;&quot;Process temperature [K]&#92;&quot;:-0.01406061311689268,&#92;&quot;Rotational speed [rpm]&#92;&quot;:-0.8750270862996037,&#92;&quot;Torque [Nm]&#92;&quot;:1.0,&#92;&quot;Tool wear [min]&#92;&quot;:-0.003092781440768214,&#92;&quot;Machine failure&#92;&quot;:0.1913207750594941},{&#92;&quot;&#92;&quot;:&#92;&quot;Tool wear [min]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.013852827663160141,&#92;&quot;Process temperature [K]&#92;&quot;:0.013487517120005912,&#92;&quot;Rotational speed [rpm]&#92;&quot;:0.00022308484018726584,&#92;&quot;Torque [Nm]&#92;&quot;:-0.003092781440768214,&#92;&quot;Tool wear [min]&#92;&quot;:1.0,&#92;&quot;Machine failure&#92;&quot;:0.1054482189195948},{&#92;&quot;&#92;&quot;:&#92;&quot;Machine failure&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.08255568978322685,&#92;&quot;Process temperature [K]&#92;&quot;:0.03594597332975212,&#92;&quot;Rotational speed [rpm]&#92;&quot;:-0.044187559734375326,&#92;&quot;Torque [Nm]&#92;&quot;:0.1913207750594941,&#92;&quot;Tool wear [min]&#92;&quot;:0.1054482189195948,&#92;&quot;Machine failure&#92;&quot;:1.0}]&quot;' data-total-rows='6' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Air temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Process temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Rotational speed [rpm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Torque [Nm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Tool wear [min]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Machine failure&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='689b01f5-afb4-a5f0-157e-8886247bd754'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;Air temperature [K]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:1.0,&#92;&quot;Process temperature [K]&#92;&quot;:0.8761071581166637,&#92;&quot;Rotational speed [rpm]&#92;&quot;:0.022670458795535774,&#92;&quot;Torque [Nm]&#92;&quot;:-0.013777823050932982,&#92;&quot;Tool wear [min]&#92;&quot;:0.013852827663160141,&#92;&quot;Machine failure&#92;&quot;:0.08255568978322685},{&#92;&quot;&#92;&quot;:&#92;&quot;Process temperature [K]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.8761071581166637,&#92;&quot;Process temperature [K]&#92;&quot;:1.0,&#92;&quot;Rotational speed [rpm]&#92;&quot;:0.019276713901797683,&#92;&quot;Torque [Nm]&#92;&quot;:-0.01406061311689268,&#92;&quot;Tool wear [min]&#92;&quot;:0.013487517120005912,&#92;&quot;Machine failure&#92;&quot;:0.03594597332975212},{&#92;&quot;&#92;&quot;:&#92;&quot;Rotational speed [rpm]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.022670458795535774,&#92;&quot;Process temperature [K]&#92;&quot;:0.019276713901797683,&#92;&quot;Rotational speed [rpm]&#92;&quot;:1.0,&#92;&quot;Torque [Nm]&#92;&quot;:-0.8750270862996037,&#92;&quot;Tool wear [min]&#92;&quot;:0.00022308484018726584,&#92;&quot;Machine failure&#92;&quot;:-0.044187559734375326},{&#92;&quot;&#92;&quot;:&#92;&quot;Torque [Nm]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:-0.013777823050932982,&#92;&quot;Process temperature [K]&#92;&quot;:-0.01406061311689268,&#92;&quot;Rotational speed [rpm]&#92;&quot;:-0.8750270862996037,&#92;&quot;Torque [Nm]&#92;&quot;:1.0,&#92;&quot;Tool wear [min]&#92;&quot;:-0.003092781440768214,&#92;&quot;Machine failure&#92;&quot;:0.1913207750594941},{&#92;&quot;&#92;&quot;:&#92;&quot;Tool wear [min]&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.013852827663160141,&#92;&quot;Process temperature [K]&#92;&quot;:0.013487517120005912,&#92;&quot;Rotational speed [rpm]&#92;&quot;:0.00022308484018726584,&#92;&quot;Torque [Nm]&#92;&quot;:-0.003092781440768214,&#92;&quot;Tool wear [min]&#92;&quot;:1.0,&#92;&quot;Machine failure&#92;&quot;:0.1054482189195948},{&#92;&quot;&#92;&quot;:&#92;&quot;Machine failure&#92;&quot;,&#92;&quot;Air temperature [K]&#92;&quot;:0.08255568978322685,&#92;&quot;Process temperature [K]&#92;&quot;:0.03594597332975212,&#92;&quot;Rotational speed [rpm]&#92;&quot;:-0.044187559734375326,&#92;&quot;Torque [Nm]&#92;&quot;:0.1913207750594941,&#92;&quot;Tool wear [min]&#92;&quot;:0.1054482189195948,&#92;&quot;Machine failure&#92;&quot;:1.0}]&quot;' data-total-rows='6' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Air temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Process temperature [K]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Rotational speed [rpm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Torque [Nm]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Tool wear [min]&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Machine failure&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "JNzO",
+      "id": "emfo",
       "code_hash": "31f52a134b734a8c60ed27b93e485915",
       "outputs": [
         {
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "id": "eSOx",
+      "id": "Hstk",
       "code_hash": "ce9c5bf64a61133f9f02a1d1127f70ed",
       "outputs": [
         {
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "id": "Gkjo",
+      "id": "nWHF",
       "code_hash": "ef6890f844da4efb9f45426bcd732007",
       "outputs": [
         {
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": "vHsl",
+      "id": "iLit",
       "code_hash": "2eaafe68c61dd7db6d6c5793a49019df",
       "outputs": [
         {
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": "JBQE",
+      "id": "ZHCJ",
       "code_hash": "75c809f19d4fcfab730ba2d2c9b6fee5",
       "outputs": [
         {
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "id": "EJXQ",
+      "id": "ROlb",
       "code_hash": "69b2120a12884c2ee2d17b23940782a3",
       "outputs": [
         {
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": "skWj",
+      "id": "qnkX",
       "code_hash": "6741132faf25fd4e83664d328ba50aa9",
       "outputs": [
         {
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "id": "RKFJ",
+      "id": "TqIu",
       "code_hash": "60571c6bb48694d6f87a311c0e20b6f9",
       "outputs": [
         {
@@ -316,8 +316,8 @@
       ]
     },
     {
-      "id": "vViq",
-      "code_hash": "235f17c53c022f49ce5590e1e1284761",
+      "id": "Vxnm",
+      "code_hash": "d16021421a6b6c1fc9ae3a2f957ca289",
       "outputs": [
         {
           "type": "data",
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "id": "MdYJ",
+      "id": "DnEU",
       "code_hash": "20ff1fe32bce908cf484c3326d7d68e4",
       "outputs": [
         {
@@ -356,7 +356,7 @@
       ]
     },
     {
-      "id": "njnB",
+      "id": "ulZA",
       "code_hash": "81cf0deb85e743becc1de65ed5d1d83a",
       "outputs": [
         {
@@ -370,7 +370,7 @@
         {
           "type": "stream",
           "name": "stderr",
-          "text": "C:\\Users\\khamz\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n  warnings.warn(\nC:\\Users\\khamz\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n  warnings.warn(\n",
+          "text": "C:\\Users\\khamz\\miniconda3\\Lib\\site-packages\\sklearn\\utils\\validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n  warnings.warn(\nC:\\Users\\khamz\\miniconda3\\Lib\\site-packages\\sklearn\\utils\\validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n  warnings.warn(\n",
           "mimetype": "text/plain"
         },
         {
@@ -382,8 +382,8 @@
       ]
     },
     {
-      "id": "dItZ",
-      "code_hash": "58e4f300a0dafc708707c8a98326b308",
+      "id": "ecfG",
+      "code_hash": "783744d0abd3d2ba17afae097bce6aac",
       "outputs": [
         {
           "type": "data",
@@ -395,14 +395,20 @@
       "console": [
         {
           "type": "stream",
+          "name": "stderr",
+          "text": "C:\\Users\\khamz\\AppData\\Local\\Temp\\marimo_17240\\__marimo__cell_ecfG_.py:7: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\\actions-runner\\_work\\pytorch\\pytorch\\torch\\csrc\\utils\\tensor_numpy.cpp:219.)\n  y_train_tensor = torch.FloatTensor(y_train.values).unsqueeze(1)\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
           "name": "stdout",
-          "text": "Epoch 20/1000, Loss: 1.1224\nEpoch 40/1000, Loss: 1.0981\nEpoch 60/1000, Loss: 1.0907\nEpoch 80/1000, Loss: 1.0792\nEpoch 100/1000, Loss: 1.0750\nEpoch 120/1000, Loss: 1.0784\nEpoch 140/1000, Loss: 1.0723\nEpoch 160/1000, Loss: 1.0763\nEpoch 180/1000, Loss: 1.0706\nEpoch 200/1000, Loss: 1.0720\nEpoch 220/1000, Loss: 1.0710\nEpoch 240/1000, Loss: 1.0755\nEpoch 260/1000, Loss: 1.0705\nEpoch 280/1000, Loss: 1.0697\nEpoch 300/1000, Loss: 1.0738\nEpoch 320/1000, Loss: 1.0662\nEpoch 340/1000, Loss: 1.0658\nEpoch 360/1000, Loss: 1.0698\nEpoch 380/1000, Loss: 1.0685\nEpoch 400/1000, Loss: 1.0697\nEpoch 420/1000, Loss: 1.0712\nEpoch 440/1000, Loss: 1.0702\nEpoch 460/1000, Loss: 1.0664\nEpoch 480/1000, Loss: 1.0706\nEpoch 500/1000, Loss: 1.0663\nEpoch 520/1000, Loss: 1.0659\nEpoch 540/1000, Loss: 1.0703\nEpoch 560/1000, Loss: 1.0684\nEpoch 580/1000, Loss: 1.0654\nEpoch 600/1000, Loss: 1.0696\nEpoch 620/1000, Loss: 1.0680\nEpoch 640/1000, Loss: 1.0662\nEpoch 660/1000, Loss: 1.0642\nEpoch 680/1000, Loss: 1.0672\nEpoch 700/1000, Loss: 1.0660\nEpoch 720/1000, Loss: 1.0655\nEpoch 740/1000, Loss: 1.0667\nEpoch 760/1000, Loss: 1.0683\nEpoch 780/1000, Loss: 1.0639\nEpoch 800/1000, Loss: 1.0632\nEpoch 820/1000, Loss: 1.0658\nEpoch 840/1000, Loss: 1.0691\nEpoch 860/1000, Loss: 1.0687\nEpoch 880/1000, Loss: 1.0661\nEpoch 900/1000, Loss: 1.0634\nEpoch 920/1000, Loss: 1.0619\nEpoch 940/1000, Loss: 1.0641\nEpoch 960/1000, Loss: 1.0638\nEpoch 980/1000, Loss: 1.0644\nEpoch 1000/1000, Loss: 1.0638\n\n=== Neural Network (MLP) ===\n              precision    recall  f1-score   support\n\n      Normal       0.99      0.98      0.99      1932\n     Failure       0.56      0.71      0.63        68\n\n    accuracy                           0.97      2000\n   macro avg       0.78      0.84      0.81      2000\nweighted avg       0.98      0.97      0.97      2000\n\nROC-AUC: 0.8445\n\nConfusion Matrix:\n[[1895   37]\n [  20   48]]\n",
+          "text": "Epoch 20/100, Loss: 1.1210\nEpoch 40/100, Loss: 1.1062\nEpoch 60/100, Loss: 1.0993\nEpoch 80/100, Loss: 1.0960\nEpoch 100/100, Loss: 1.0820\n\n=== Neural Network (MLP) ===\n              precision    recall  f1-score   support\n\n      Normal       0.99      0.96      0.98      1932\n     Failure       0.42      0.75      0.54        68\n\n    accuracy                           0.96      2000\n   macro avg       0.71      0.86      0.76      2000\nweighted avg       0.97      0.96      0.96      2000\n\nROC-AUC: 0.8432\n\nConfusion Matrix:\n[[1863   69]\n [  17   51]]\n",
           "mimetype": "text/plain"
         }
       ]
     },
     {
-      "id": "pvJT",
+      "id": "Pvdt",
       "code_hash": "8897c4c02dc13a49bff051444d78b948",
       "outputs": [
         {
@@ -422,8 +428,8 @@
       ]
     },
     {
-      "id": "HOBa",
-      "code_hash": "defc3f61b305d7499b9cad56475c115c",
+      "id": "ZBYS",
+      "code_hash": "d3a634144d9033b20ee856a535d2896d",
       "outputs": [
         {
           "type": "data",
@@ -442,7 +448,7 @@
       ]
     },
     {
-      "id": "XAZP",
+      "id": "aLJB",
       "code_hash": "49971dac87f1d69345607d7c7b2448a3",
       "outputs": [
         {
@@ -462,7 +468,7 @@
       ]
     },
     {
-      "id": "zIoK",
+      "id": "nHfw",
       "code_hash": "848d75e533538c47daa8af2c6b826050",
       "outputs": [
         {
@@ -482,8 +488,8 @@
       ]
     },
     {
-      "id": "fJHD",
-      "code_hash": "4eb2d371df36e9e2347c47ce08b3a962",
+      "id": "xXTn",
+      "code_hash": "6ceccb6e58c58b4e0b8c6787625413ef",
       "outputs": [
         {
           "type": "data",
@@ -502,7 +508,7 @@
       ]
     },
     {
-      "id": "KLvw",
+      "id": "AjVT",
       "code_hash": "58ae7806aeb556ccacb1fa2004c3ae0c",
       "outputs": [
         {

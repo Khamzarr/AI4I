@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.23.10"
+__generated_with = "0.23.11"
 app = marimo.App(width="medium")
 
 
@@ -289,7 +289,7 @@ def _(classification_report, confusion_matrix, np, y_pred_proba_rf, y_test):
     if len(best_idx_rf) > 0:
         best_idx_rf = best_idx_rf[np.argmax(precisions_rf[best_idx_rf])]
         best_threshold_rf = thresholds_rf[best_idx_rf]
-    
+
         y_pred_rf_threshold = (y_pred_proba_rf >= best_threshold_rf).astype(int)
         print(f"Optimal threshold: {best_threshold_rf:.3f}")
         print(classification_report(y_test, y_pred_rf_threshold, target_names=["Normal", "Failure"]))
@@ -300,7 +300,7 @@ def _(classification_report, confusion_matrix, np, y_pred_proba_rf, y_test):
     if len(best_idx_rf) > 0:
         best_idx_rf = best_idx_rf[np.argmax(precisions_rf[best_idx_rf])]
         best_threshold_rf = thresholds_rf[best_idx_rf]
-    
+
         y_pred_rf_threshold = (y_pred_proba_rf >= best_threshold_rf).astype(int)
         print(f"Optimal threshold: {best_threshold_rf:.3f}")
         print(classification_report(y_test, y_pred_rf_threshold, target_names=["Normal", "Failure"]))
@@ -423,7 +423,7 @@ def _(
             self.relu = nn.ReLU()
             self.dropout = nn.Dropout(0.3)
             self.sigmoid = nn.Sigmoid()
-    
+
         def forward(self, x):
             x = self.relu(self.layer1(x))
             x = self.dropout(x)
@@ -442,7 +442,7 @@ def _(
     criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
 
     # Обучение
-    epochs = 1000
+    epochs = 100
     model_nn.train()
     for epoch in range(epochs):
         total_loss = 0
@@ -453,7 +453,7 @@ def _(
             loss.backward()
             optimizer.step()
             total_loss += loss.item()
-    
+
         if (epoch + 1) % 20 == 0:
             print(f"Epoch {epoch+1}/{epochs}, Loss: {total_loss/len(train_loader):.4f}")
 
@@ -521,7 +521,7 @@ def _(
     if len(best_idx_cat) > 0:
         best_idx_cat = best_idx_cat[np.argmax(precisions_cat[best_idx_cat])]
         best_threshold_cat = thresholds_cat[best_idx_cat]
-    
+
         y_pred_cat_threshold = (y_pred_proba_cat >= best_threshold_cat).astype(int)
         print(f"Optimal threshold: {best_threshold_cat:.3f}")
         print(classification_report(y_test, y_pred_cat_threshold, target_names=["Normal", "Failure"]))
@@ -627,7 +627,7 @@ def _(
     if len(best_idx_cat_fe) > 0:
         best_idx_cat_fe = best_idx_cat_fe[np.argmax(precisions_cat_fe[best_idx_cat_fe])]
         best_threshold_cat_fe = thresholds_cat_fe[best_idx_cat_fe]
-    
+
         y_pred_cat_fe_threshold = (y_pred_proba_cat_fe >= best_threshold_cat_fe).astype(int)
         print(f"Optimal threshold: {best_threshold_cat_fe:.3f}")
         print(classification_report(y_test_fe, y_pred_cat_fe_threshold, target_names=["Normal", "Failure"]))
