@@ -1,6 +1,22 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "catboost>=1.2.10",
+#     "lightgbm>=4.6.0",
+#     "marimo>=0.23.3",
+#     "matplotlib>=3.11.0",
+#     "numpy>=2.5.0",
+#     "pandas>=3.0.3",
+#     "scikit-learn>=1.9.0",
+#     "seaborn>=0.13.2",
+#     "torch>=2.12.1",
+#     "xgboost>=3.3.0",
+# ]
+# ///
+
 import marimo
 
-__generated_with = "0.23.11"
+__generated_with = "0.23.9"
 app = marimo.App(width="medium")
 
 
